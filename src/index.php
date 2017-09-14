@@ -24,6 +24,10 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
+                <p />
+                <?php
+                        phpinfo();
+                ?>
 
             </div>
         </div>
